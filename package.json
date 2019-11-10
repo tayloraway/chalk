@@ -1,7 +1,7 @@
 {
   "name": "chalk",
   "version": "1.0.0",
-  "description": "TAY TAY",
+  "description": "FInally working",
   "main": "app.js",
   "dependencies": {
     "chalk": "^2.4.2",
@@ -11,6 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tayloraway/chalk.git"
+  },
   "author": "TR",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tayloraway/chalk/issues"
+  },
+  "homepage": "https://github.com/tayloraway/chalk#readme"
 }
