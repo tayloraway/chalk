@@ -1,2 +1,11 @@
 const chalk = require('chalk');
-console.log(chalk.greenBright('Hello World'));
+const nam = 'JIMMY';
+console.log(chalk.bgGreenBright.black('Hello %s!'), nam);
+console.log(chalk.bgCyan.black('Just in case you did not know your name is %s.'), nam);
+console.log(chalk.blue('%s is a very good coder and always followed the rules until one unfortunate day.'), nam);
+console.log(chalk.magenta('%s had discovered that there was more information on google about making websites than what was on W3 schools and his school page.'), nam);
+console.log(chalk.bold.underline.redBright('Unfortunately %s did not read his syllabus and did not know that plagurizm or however you spell the word was not allowed in class!'), nam);
+console.log(chalk.inverse('%s copied a website code he had found for his assignment.'), nam);
+console.log(chalk.blueBright('%s got a 0 on his assignment'), nam);
+console.log(chalk.yellow('%s never did it again.'), nam);
+console.log(chalk.underline.yellowBright.inverse('THE END!!'));
